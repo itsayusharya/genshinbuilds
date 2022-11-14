@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 85;
+}
+
+navbar {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    margin: 1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid #52b9e2;
+}
+
+.search-wrapper {
+    display: flex;
+    gap: 1rem;
+}
