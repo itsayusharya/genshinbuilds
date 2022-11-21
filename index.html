@@ -16,20 +16,78 @@
   </head>
   <body>
     <div>
-      <navbar>
-        <div class="link-wrapper">
-          Genshin Builds
-          <a href="./index.html">Home</a>
-          <a href="#">About</a>
-          <a href="#">Credits</a>
-        </div>
-        <div class="search-wrapper">
-          <input />
-          <button>Search</button>
-        </div>
+      <navbar class="navbar">
+        <script src="../scripts/navbar.js"></script>
       </navbar>
+      <main>
+        <div class="filters">
+          <div class="weapon-filter">
+            <input type="image" src="./assets/weapon/icon_bow.png" id="bow" />
+            <input
+              type="image"
+              src="./assets/weapon/icon_catalyst.png"
+              id="catalyst"
+            />
+            <input
+              type="image"
+              src="./assets/weapon/icon_claymore.png"
+              id="claymore"
+            />
+            <input
+              type="image"
+              src="./assets/weapon/icon_polearm.png"
+              id="polearm"
+            />
+            <input
+              type="image"
+              src="./assets/weapon/icon_sword.png"
+              id="sword"
+            />
+          </div>
+          <div class="element-filter">
+            <input
+              type="image"
+              src="./assets/element/icon_pyro.svg"
+              id="pyro"
+            />
 
-      <main></main>
+            <input
+              type="image"
+              src="./assets/element/icon_hydro.svg"
+              id="hydro"
+            />
+
+            <input
+              type="image"
+              src="./assets/element/icon_anemo.svg"
+              id="anemo"
+            />
+            <input
+              type="image"
+              src="./assets/element/icon_electro.svg"
+              id="electro"
+            />
+            <input
+              type="image"
+              src="./assets/element/icon_dendro.svg"
+              id="dendro"
+            />
+            <input
+              type="image"
+              src="./assets/element/icon_cryo.svg"
+              id="cryo"
+            />
+            <input type="image" src="./assets/element/icon_geo.svg" id="geo" />
+          </div>
+        </div>
+        <div class="container">
+          <template class="card">
+            <div class="header"></div>
+          </template>
+        </div>
+        <a href="./characters/amber.html">Amber</a>
+      </main>
+
       <footer></footer>
     </div>
   </body>

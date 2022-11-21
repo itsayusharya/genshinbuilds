@@ -34,31 +34,3 @@ a:hover {
     display: flex;
     gap: 1rem;
 }
-
-.filters {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    gap: 10rem;
-}
-
-.weapon-filter,
-.element-filter {
-    display: flex;
-    justify-content: center;
-    height: 40px;
-    flex-grow: 1;
-}
-
-.search-wrapper input {
-    border-radius: .25rem;
-    border: none;
-}
-
-.hide {
-    display: none;
-}
-
-.container .card .header {
-    background-color: white;
-}
