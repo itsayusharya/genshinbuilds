@@ -5,13 +5,13 @@ const elementFilter = document.createElement("div");
 elementFilter.setAttribute("class", "element-filter");
 
 //icon button
-const pyro = "../assets/element/icon_pyro.svg";
-const hydro = "../assets/element/icon_hydro.svg";
-const anemo = "../assets/element/icon_anemo.svg";
-const electro = "../assets/element/icon_electro.svg";
-const dendro = "../assets/element/icon_dendro.svg";
-const cryo = "../assets/element/icon_cryo.svg";
-const geo = "../assets/element/icon_geo.svg";
+const pyro = "./assets/element/icon_pyro.svg";
+const hydro = "./assets/element/icon_hydro.svg";
+const anemo = "./assets/element/icon_anemo.svg";
+const electro = "./assets/element/icon_electro.svg";
+const dendro = "./assets/element/icon_dendro.svg";
+const cryo = "./assets/element/icon_cryo.svg";
+const geo = "./assets/element/icon_geo.svg";
 
 const elements = [pyro, hydro, anemo, electro, dendro, cryo, geo];
 
