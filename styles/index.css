@@ -12,7 +12,7 @@ body {
     color: white;
 }
 
-navbar {
+header {
     padding: 1.5rem;
     display: flex;
     justify-content: space-between;

@@ -1,94 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <script src="./scripts/index.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <title>Genshin Builds</title>
-  </head>
-  <body>
-    <div>
-      <navbar class="navbar">
-        <script src="./scripts/navbar.js"></script>
-      </navbar>
-      <main>
-        <div class="filters">
-          <div class="weapon-filter">
-            <input type="image" src="./assets/weapon/icon_bow.png" id="bow" />
-            <input
-              type="image"
-              src="./assets/weapon/icon_catalyst.png"
-              id="catalyst"
-            />
-            <input
-              type="image"
-              src="./assets/weapon/icon_claymore.png"
-              id="claymore"
-            />
-            <input
-              type="image"
-              src="./assets/weapon/icon_polearm.png"
-              id="polearm"
-            />
-            <input
-              type="image"
-              src="./assets/weapon/icon_sword.png"
-              id="sword"
-            />
-          </div>
-          <div class="element-filter">
-            <input
-              type="image"
-              src="./assets/element/icon_pyro.svg"
-              id="pyro"
-            />
 
-            <input
-              type="image"
-              src="./assets/element/icon_hydro.svg"
-              id="hydro"
-            />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
+  <title>Genshin Builds</title>
 
-            <input
-              type="image"
-              src="./assets/element/icon_anemo.svg"
-              id="anemo"
-            />
-            <input
-              type="image"
-              src="./assets/element/icon_electro.svg"
-              id="electro"
-            />
-            <input
-              type="image"
-              src="./assets/element/icon_dendro.svg"
-              id="dendro"
-            />
-            <input
-              type="image"
-              src="./assets/element/icon_cryo.svg"
-              id="cryo"
-            />
-            <input type="image" src="./assets/element/icon_geo.svg" id="geo" />
-          </div>
-        </div>
-        <div class="container">
-          <template class="card">
-            <div class="header"></div>
-          </template>
-        </div>
-        <a href="./characters/amber.html">Amber</a>
-      </main>
+  <script src="./scripts/navbar.js" defer></script>
+  <script src="./scripts/filters.js" defer></script>
+</head>
 
-      <footer></footer>
-    </div>
-  </body>
+<body>
+  <header>
+  </header>
+  <main>
+    <div class="filters"></div>
+    <div class="card-container"></div>
+  </main>
+  <footer></footer>
+  </div>
+</body>
+
 </html>
