@@ -19,6 +19,7 @@ function icon(src) {
   const btn = document.createElement("input");
   btn.setAttribute("type", "image");
   btn.setAttribute("src", src);
+  btn.setAttribute("class", "btn");
   return btn;
 }
 

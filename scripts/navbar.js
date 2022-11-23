@@ -13,7 +13,7 @@ function link(linkName, url) {
   return a;
 }
 
-const home = link("Genshin Builds", "../index.html");
+const home = link("Genshin Builds", "/");
 
 const navItems = [home];
 
