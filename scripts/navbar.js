@@ -13,7 +13,10 @@ function link(linkName, url) {
   return a;
 }
 
-const home = link("Genshin Builds", "./");
+const home = link(
+  "Genshin Builds",
+  "https://itsayusharya.github.io/genshinbuilds/"
+);
 
 const navItems = [home];
 
