@@ -26,20 +26,15 @@ a {
     color: white;
 }
 
-a:hover {
+a:hover,
+.btn:hover {
     border-bottom: 2px solid #52b9e2;
-}
-
-.search-wrapper {
-    display: flex;
-    gap: 1rem;
 }
 
 .filters {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 10px;
-    gap: 10rem;
 }
 
 .weapon-filter,
@@ -48,11 +43,13 @@ a:hover {
     justify-content: center;
     height: 40px;
     flex-grow: 1;
+
 }
 
 .search-wrapper input {
     border-radius: .25rem;
     border: none;
+
 }
 
 .hide {
