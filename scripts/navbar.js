@@ -8,6 +8,7 @@ function link(linkName, url) {
   const t = document.createTextNode(linkName);
   const a = document.createElement("a");
   a.setAttribute("href", url);
+  a.setAttribute("class", "navitem");
   a.appendChild(t);
 
   return a;
