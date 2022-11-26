@@ -20,15 +20,19 @@ header {
     border-bottom: 2px solid rgb(167, 167, 167);
 }
 
-a {
+.navitem {
     margin: 1rem;
     text-decoration: none;
     color: white;
 }
 
-a:hover,
+.navitem:hover,
 .btn:hover {
     border-bottom: 2px solid #52b9e2;
+}
+
+.btn:hover {
+    border-radius: 2rem;
 }
 
 .filters {
@@ -56,6 +60,8 @@ a:hover,
     display: none;
 }
 
-.container .card .header {
-    background-color: white;
+.card {
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
 }
